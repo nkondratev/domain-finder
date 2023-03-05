@@ -13,6 +13,6 @@ with open('domains1.txt') as domains:
             try:
                 result = whois.whois(domain)
             except:
-                print("Есть домен", domain)
+                print("Domain found", domain)
 
         

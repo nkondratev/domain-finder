@@ -5,7 +5,6 @@ import dns.resolver
 import whois
 import random
 import string
-import time
 
 zone = ".ru"
 
